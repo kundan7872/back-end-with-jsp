@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Student Data</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div style="display: flex; justify-content: center;padding: 50px;">
+            <div style="width: 25%;background: lightslategray;padding: 10px;display: flex;border-radius:15px; flex-direction: column;align-items: center;">
+        <h1>Student Login</h1>
+        <form action="StudentControllerServlet" method="post">
+            <input type="text" name="em" placeholder="Enter Email address"/><br><br>
+            <input type="password" name="pass" placeholder="Enter password" />
+            <br>
+            <br>
+            <input type="submit"  value="Login" style="padding: 7px ;background: lightseagreen;font-size: 17px;font-weight: bold;border-radius: 10px;"/>
+        </form>
+        </div>
+        </div>
+    </body>
+</html>
